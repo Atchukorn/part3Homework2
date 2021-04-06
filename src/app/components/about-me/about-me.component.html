@@ -1,0 +1,11 @@
+<div class="container">
+  <p>About Me : What is it ?</p>
+</div>
+<div class="main">
+  <!-- <ul class="navbar-nav flex-grow"> -->
+  <ul>
+    <li class="nav-item" routerLinkActive="link-active" *ngFor = "let d of description">
+      <a class="nav-link text-dark"  routerLink="/{{d.subjDetail}}">{{d.subjDetail}}</a>
+    </li>
+  </ul>
+</div>

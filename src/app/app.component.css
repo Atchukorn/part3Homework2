@@ -1,0 +1,17 @@
+.tab-menu {
+  /* border-bottom: 1px solid lightgrey; */
+  border-right-style: 1 px solid grey;
+  color:rgba(128, 7, 107, 0.781);
+}
+.tab-menu > div {
+  display: inline-block;
+  padding: 10px;
+  border-right-style:  1px black;
+}
+.tab-menu > div:hover {
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid grey;
+  /* width: 80px; */
+}

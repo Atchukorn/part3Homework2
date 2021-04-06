@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'partt3Homework2';
+
+  currentTab! : string;
+
+  selectTab(tab : string) {
+    this.currentTab = tab;
+  }
+
 }
